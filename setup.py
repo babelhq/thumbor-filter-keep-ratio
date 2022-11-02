@@ -14,7 +14,7 @@ provided request height and width, but always keeping the aspect ratio.
 ''',
     keywords='thumbor filter',
     author='single.dk',
-    author_email='dev@single.dk',
+    author_email='tech@single.dk',
     url='https://github.com/babelhq/thumbor-filter-keep-ratio',
     license='MIT',
     classifiers=[
@@ -26,7 +26,7 @@ provided request height and width, but always keeping the aspect ratio.
         'Operating System :: POSIX',
         'Operating System :: Unix',
         'Operating System :: OS Independent',
-        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.7',
     ],
     packages=find_packages(),
     include_package_data=True,

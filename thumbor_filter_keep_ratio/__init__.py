@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import logging
 
-__version__ = '0.0.1'
+__version__ = '0.0.2'
 
 try:
     from thumbor_filter_keep_ratio.keep_ratio import Filter
