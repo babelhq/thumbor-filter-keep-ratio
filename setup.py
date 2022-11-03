@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 
 from setuptools import setup, find_packages
-from thumbor_filter_keep_ratio import __version__
+from thumbor_filter_fit_min import __version__
 
 setup(
-    name='thumbor_filter_keep_ratio',
+    name='thumbor_filter_fit_min',
     version=__version__,
     description='A filter for Thumbor for resizing keeping aspect ratio',
     long_description='''

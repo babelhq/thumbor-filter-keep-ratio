@@ -6,7 +6,7 @@ provided request height and width, but always keeping the aspect ratio.
 ## Installation
 
 ```sh
-pip install thumbor_filter_keep_ratio
+pip install thumbor_filter_fit_min
 ```
 
 To use the filter, it should be enabled in Thumbor configuration, for example:
@@ -14,7 +14,7 @@ To use the filter, it should be enabled in Thumbor configuration, for example:
 ```
 # thumbor.conf
 
-FILTERS=['thumbor.filters.brightness','thumbor.filters.blur','thumbor_filter_keep_ratio']
+FILTERS=['thumbor.filters.brightness','thumbor.filters.blur','thumbor_filter_fit_min']
 ```
 
 ## Usage

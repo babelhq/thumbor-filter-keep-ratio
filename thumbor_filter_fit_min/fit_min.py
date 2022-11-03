@@ -20,7 +20,7 @@ class Filter(BaseFilter):
   phase = thumbor.filters.PHASE_AFTER_LOAD
 
   @filter_method()
-  async def keep_ratio(self):
+  async def fit_min(self):
     target_width = self.context.request.width
     target_height = self.context.request.height
 
